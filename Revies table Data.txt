@@ -1,0 +1,63 @@
+Revies Data
+
+
+  {
+    "id": 1,
+    "content": "Great place to stay with friendly staff!",
+    "propertyid": 1,
+    "userid": 1
+  },
+  {
+    "id": 2,
+    "content": "The amenities provided were top-notch.",
+    "propertyid": 2,
+    "userid": 2
+  },
+  {
+    "id": 3,
+    "content": "Clean and well-maintained rooms.",
+    "propertyid": 1,
+    "userid": 3
+  },
+  {
+    "id": 4,
+    "content": "Had a wonderful experience staying here.",
+    "propertyid": 3,
+    "userid": 4
+  },
+  {
+    "id": 5,
+    "content": "The location was convenient for my work.",
+    "propertyid": 2,
+    "userid": 5
+  },
+  {
+    "id": 6,
+    "content": "The staff was helpful and attentive.",
+    "propertyid": 4,
+    "userid": 6
+  },
+  {
+    "id": 7,
+    "content": "The property has a great view from the balcony.",
+    "propertyid": 3,
+    "userid": 7
+  },
+  {
+    "id": 8,
+    "content": "Overall, a pleasant stay.",
+    "propertyid": 1,
+    "userid": 8
+  },
+  {
+    "id": 9,
+    "content": "I enjoyed the communal facilities like the gym.",
+    "propertyid": 5,
+    "userid": 9
+  },
+  {
+    "id": 10,
+    "content": "The property had good security measures in place.",
+    "propertyid": 4,
+    "userid": 10
+  }

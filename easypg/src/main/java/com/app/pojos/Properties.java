@@ -1,43 +1,66 @@
 package com.app.pojos;
 
+import java.util.ArrayList;
 import java.util.List;
 
-import javax.persistence.CascadeType;
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
-import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
-import javax.persistence.Table;
+import javax.persistence.*;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-import lombok.ToString;
-@Entity
-@Table(name="properties")
+import lombok.*;
+
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
+@Entity
 @ToString
-public class Properties extends BaseEntity
-{
- private RoomType roomtype;
- @Column( name= "address" ,length = 20)
- private String address;
- @Column( name= "prize" ,length = 20)
- private double prize;
- @Column( name= "rules" ,length = 20)
- private String rules;
- @JoinColumn(name="home")
- @ManyToOne
- private HomeOwner home;// related to HomeOwner
- @OneToMany(mappedBy = "props",cascade = CascadeType.ALL,orphanRemoval = true)
- private List<Tenants> ten;
- @ManyToOne
- @JoinColumn(name="admin")
- private Admin admin3;
- 
+@Table(name = "Properties")
+public class Properties extends BaseEntity{
+	
+	@Column(length=20,nullable = false)
+	private String name;
+	@Column(length = 800)
+	private String description;
+	@Column
+	private String address;
+	@Column(name = "gender")
+	@Enumerated(EnumType.STRING) 
+	private Gender gender;
+	@Column
+	private double rent;
+	@Column
+	private	float ratingClean;
+	@Column
+	private float ratingFood;
+	@Column
+	private float ratingSafety;
+	@ManyToOne(fetch= FetchType.LAZY)
+	@JoinColumn(name ="city_id")
+	private Cities myCity;
+	
+	@OneToMany(mappedBy = "property",cascade = CascadeType.ALL)
+	private List<Reviews>list=new ArrayList<Reviews>();
+	
+	@ManyToMany(fetch=FetchType.EAGER)
+	@JoinTable(name="Properties_Facilities",
+	joinColumns =  @JoinColumn(name="property_id"),
+	inverseJoinColumns =  @JoinColumn(name="facility_id"))
+	private List<Facilities> facilities=new ArrayList<Facilities>();
+	
+	@ManyToMany(mappedBy = "properties" ,fetch = FetchType.LAZY)
+	private  List<User>users=new ArrayList<User>();
+	
+	@OneToOne(mappedBy = "properties",cascade = CascadeType.ALL,orphanRemoval = true)
+	private CartProperties properties;
+	
+	public Properties(Long id) {
+		super();
+		setId(id);
+	}
+	
+	public void addFacilities(List<Facilities> l) {
+		for (Facilities facility : l) {
+			this.facilities.add(facility);
+			facility.getProperties().add(this);
+		}
+	}
 }

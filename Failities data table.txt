@@ -1,0 +1,60 @@
+Failities data table
+
+[
+  {
+    "id": 1,
+    "name": "Wi-Fi",
+    "type": "Internet"
+  },
+  {
+    "id": 2,
+    "name": "Laundry",
+    "type": "Service"
+  },
+  {
+    "id": 3,
+    "name": "Gym",
+    "type": "Fitness"
+  },
+  {
+    "id": 4,
+    "name": "Security",
+    "type": "Safety"
+  },
+  {
+    "id": 5,
+    "name": "Parking",
+    "type": "Convenience"
+  },
+  {
+    "id": 6,
+    "name": "Cleaning",
+    "type": "Service"
+  },
+  {
+    "id": 7,
+    "name": "Cafeteria",
+    "type": "Dining"
+  },
+  {
+    "id": 8,
+    "name": "AC",
+    "type": "Comfort"
+  },
+  {
+    "id": 9,
+    "name": "Library",
+    "type": "Recreation"
+  },
+  {
+    "id": 10,
+    "name": "24/7 Staff",
+    "type": "Service"
+  }
+]
+In this example, each facility entry has an "id", "name", and "type". The "id" values are unique identifiers for each entry, the "name" values represent different facility names, and the "type" values categorize the facilities into different types. This is just fictional data for illustration purposes, and you can customize the facility names and types as needed for your project.
+
+
+
+
+

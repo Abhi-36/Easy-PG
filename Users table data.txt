@@ -1,0 +1,105 @@
+Users data
+
+
+Copy code
+[
+  {
+    "id": 1,
+    "email": "john@example.com",
+    "password": "securepassword1",
+    "fullName": "John Doe",
+    "mobNo": 1234567890,
+    "address": "123 Main Street, Cityville",
+    "gender": "MALE",
+    "role": "USER"
+  },
+  {
+    "id": 2,
+    "email": "jane@example.com",
+    "password": "strongpassword2",
+    "fullName": "Jane Smith",
+    "mobNo": 9876543210,
+    "address": "456 Park Avenue, Townsville",
+    "gender": "FEMALE",
+    "role": "USER"
+  },
+  {
+    "id": 3,
+    "email": "alex@example.com",
+    "password": "secret123",
+    "fullName": "Alex Johnson",
+    "mobNo": 5551234567,
+    "address": "789 Downtown Road, Metroville",
+    "gender": "MALE",
+    "role": "USER"
+  },
+  {
+    "id": 4,
+    "email": "emma@example.com",
+    "password": "password123",
+    "fullName": "Emma Williams",
+    "mobNo": 1235557890,
+    "address": "123 Riverside Drive, Naturetown",
+    "gender": "FEMALE",
+    "role": "USER"
+  },
+  {
+    "id": 5,
+    "email": "michael@example.com",
+    "password": "michaelpass",
+    "fullName": "Michael Brown",
+    "mobNo": 9875554321,
+    "address": "456 Sunshine Street, Sunville",
+    "gender": "MALE",
+    "role": "USER"
+  },
+  {
+    "id": 6,
+    "email": "olivia@example.com",
+    "password": "olivia123",
+    "fullName": "Olivia Taylor",
+    "mobNo": 5557891234,
+    "address": "789 Hillside Lane, Hilltown",
+    "gender": "FEMALE",
+    "role": "USER"
+  },
+  {
+    "id": 7,
+    "email": "william@example.com",
+    "password": "williampass",
+    "fullName": "William Johnson",
+    "mobNo": 1235556789,
+    "address": "123 Plaza Street, Central City",
+    "gender": "MALE",
+    "role": "USER"
+  },
+  {
+    "id": 8,
+    "email": "sophia@example.com",
+    "password": "sophiapass",
+    "fullName": "Sophia Lee",
+    "mobNo": 9875551234,
+    "address": "456 Oceanfront Road, Beachville",
+    "gender": "FEMALE",
+    "role": "USER"
+  },
+  {
+    "id": 9,
+    "email": "jackson@example.com",
+    "password": "jacksonpass",
+    "fullName": "Jackson Smith",
+    "mobNo": 5557894567,
+    "address": "789 Serenity Lane, Quietville",
+    "gender": "MALE",
+    "role": "USER"
+  },
+  {
+    "id": 10,
+    "email": "amelia@example.com",
+    "password": "ameliapass",
+    "fullName": "Amelia Davis",
+    "mobNo": 1237895555,
+    "address": "123 Greenfield Avenue, Greenvale",
+    "gender": "FEMALE",
+    "role": "USER"
+  }

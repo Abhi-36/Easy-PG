@@ -1,0 +1,43 @@
+City table data
+
+
+  {
+    "id": 1,
+    "City name": "New York"
+  },
+  {
+    "id": 2,
+    "City name": "Los Angeles"
+  },
+  {
+    "id": 3,
+    "City name": "Chicago"
+  },
+  {
+    "id": 4,
+    "City name": "Houston"
+  },
+  {
+    "id": 5,
+    "City name": "Miami"
+  },
+  {
+    "id": 6,
+    "City name": "Seattle"
+  },
+  {
+    "id": 7,
+    "City name": "Boston"
+  },
+  {
+    "id": 8,
+    "City name": "San Francisco"
+  },
+  {
+    "id": 9,
+    "City name": "Dallas"
+  },
+  {
+    "id": 10,
+    "City name": "Atlanta"
+  }

@@ -9,11 +9,11 @@
 		<version>2.7.13</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.easypg</groupId>
-	<artifactId>easypg</artifactId>
+	<groupId>com.iacsd</groupId>
+	<artifactId>day16_REST</artifactId>
 	<version>0.0.1</version>
-	<name>easypg</name>
-	<description>Spring Boot Project for monolithic web app , with JSP based view layer</description>
+	<name>day16_REST</name>
+	<description>Spring Boot Project for Backend of Full Stack App</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
@@ -43,7 +43,8 @@
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.projectlombok</groupId>
+		<!--  first step add lombook depedcies -->
+			<groupId>org.projectlombok</groupId> <!-- we are adding here lombook depedancies -->
 			<artifactId>lombok</artifactId>
 			<optional>true</optional>
 		</dependency>
@@ -52,16 +53,27 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- Additional dependencies required ONLY for Spring MVC with JSP based view layer-->
+		<!-- Swagger UI -->
 		<dependency>
-			<groupId>org.apache.tomcat.embed</groupId>
-			<artifactId>tomcat-embed-jasper</artifactId>
+			<groupId>org.springdoc</groupId>
+			<artifactId>springdoc-openapi-ui</artifactId>
+			<version>1.6.4</version>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/org.modelmapper/modelmapper -->
 		<dependency>
-			<groupId>javax.servlet</groupId>
-			<artifactId>jstl</artifactId>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.0.0</version>
 		</dependency>
+	<!-- 	<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency> -->
 	</dependencies>
 
 	<build>

@@ -1,0 +1,133 @@
+Property data
+
+
+
+
+
+
+
+{
+    "id": 1,
+    "name": "Luxury Apartments",
+    "description": "Spacious and well-furnished apartments with modern amenities.",
+    "address": "123 Main Street, Cityville",
+    "gender": "MALE",
+    "rent": 1200,
+    "ratingClean": 4.8,
+    "ratingFood": 4.5,
+    "ratingSafety": 4.7,
+    "city_id": 1
+  },
+  {
+    "id": 2,
+    "name": "Urban Lofts",
+    "description": "Modern loft-style apartments in the heart of downtown.",
+    "address": "789 Downtown Avenue, Metroville",
+    "gender": "FEMALE",
+    "rent": 1500,
+    "ratingClean": 4.5,
+    "ratingFood": 4.2,
+    "ratingSafety": 4.6,
+    "city_id": 2
+  },
+  {
+    "id": 3,
+    "name": "Riverside Retreat",
+    "description": "Tranquil apartments by the river with serene views.",
+    "address": "456 Riverside Drive, Naturetown",
+    "gender": "ANY",
+    "rent": 900,
+    "ratingClean": 4.7,
+    "ratingFood": 4.8,
+    "ratingSafety": 4.9,
+    "city_id": 3
+  },
+  {
+    "id": 4,
+    "name": "Sunny Residences",
+    "description": "Bright and sunny apartments close to local amenities.",
+    "address": "789 Sunshine Street, Sunville",
+    "gender": "MALE",
+    "rent": 950,
+    "ratingClean": 4.3,
+    "ratingFood": 4.5,
+    "ratingSafety": 4.8,
+    "city_id": 4
+  },
+  {
+    "id": 5,
+    "name": "Hillside Haven",
+    "description": "Cozy apartments on a hill with beautiful views.",
+    "address": "123 Hillside Lane, Hilltown",
+    "gender": "FEMALE",
+    "rent": 800,
+    "ratingClean": 4.6,
+    "ratingFood": 4.2,
+    "ratingSafety": 4.5,
+    "city_id": 5
+  },
+  {
+    "id": 6,
+    "name": "Central Plaza Apartments",
+    "description": "Convenient apartments near the city center.",
+    "address": "456 Plaza Street, Central City",
+    "gender": "ANY",
+    "rent": 1100,
+    "ratingClean": 4.4,
+    "ratingFood": 4.6,
+    "ratingSafety": 4.7,
+    "city_id": 6
+  },
+  {
+    "id": 7,
+    "name": "Seaside Living",
+    "description": "Apartments by the sea with fresh ocean breeze.",
+    "address": "789 Oceanfront Road, Beachville",
+    "gender": "MALE",
+    "rent": 1300,
+    "ratingClean": 4.7,
+    "ratingFood": 4.3,
+    "ratingSafety": 4.9,
+    "city_id": 7
+  },
+  {
+    "id": 8,
+    "name": "Tranquil Towers",
+    "description": "Elegant apartments in a peaceful neighborhood.",
+    "address": "123 Serenity Lane, Quietville",
+    "gender": "FEMALE",
+    "rent": 1050,
+    "ratingClean": 4.9,
+    "ratingFood": 4.4,
+    "ratingSafety": 4.7,
+    "city_id": 8
+  },
+  {
+    "id": 9,
+    "name": "Greenfield Estates",
+    "description": "Spacious apartments with lush green surroundings.",
+    "address": "456 Greenfield Avenue, Greenvale",
+    "gender": "ANY",
+    "rent": 950,
+    "ratingClean": 4.5,
+    "ratingFood": 4.2,
+    "ratingSafety": 4.6,
+    "city_id": 9
+  },
+  {
+    "id": 10,
+    "name": "Skyview Residences",
+    "description": "High-rise apartments with stunning sky views.",
+    "address": "789 Skyview Road, Cloudtown",
+    "gender": "MALE",
+    "rent": 1400,
+    "ratingClean": 4.6,
+    "ratingFood": 4.8,
+    "ratingSafety": 4.5,
+    "city_id": 10
+  }
+]
+
+
+
+
